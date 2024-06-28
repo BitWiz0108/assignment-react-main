@@ -1,0 +1,110 @@
+.today-task-section th {
+  color: #3a455b8a;
+  text-transform: uppercase;
+  background-color: #f5f5fa;
+}
+.table-responisve {
+  overflow: auto;
+}
+.today-task-section td,
+.today-task-section th {
+  padding: 10px;
+  border-top: 1px solid #cfd5df;
+}
+.today-task-section th span,
+.today-task-section td span {
+  padding: 0;
+}
+.today-task-section td {
+  color: #3a455bd9;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.today-task-row tr td:nth-child(2) {
+  color: #3a455b;
+  font-weight: 600;
+}
+
+.today-task-row tr td:nth-child(3) span {
+  color: #3a455b;
+  font-weight: 600;
+  padding: 4px;
+  background-color: #f5f5fa;
+  border-radius: 6px;
+  display: block;
+  text-align: center;
+  border: 1px solid #cfd5df;
+  width: fit-content;
+  min-width: 28px;
+  height: fit-content;
+}
+.today-task-row tr td .MuiAvatarGroup-root .MuiAvatar-root {
+  width: 31.5px;
+  height: 31.5px;
+}
+.today-task-row tr td .MuiLinearProgress-root {
+  background-color: #f5f5fa;
+  border-radius: 6px;
+  width: 100px;
+}
+.today-task-row tr td .MuiBox-root {
+  width: fit-content;
+}
+.today-task-row tr td:last-child {
+  text-align: right;
+  width: 170px;
+}
+.today-task-row tr td .css-5xe99f-MuiLinearProgress-bar1 {
+  background-color: #e64600;
+}
+.employees-table-section td .MuiAvatar-root {
+  width: 30px;
+  height: 30px;
+}
+
+.schedule-table-section td {
+  border: 1px solid #cfd5df;
+}
+.schedule-table-section td:first-child {
+  border-left: 0;
+}
+.schedule-table-section td:last-child {
+  border-right: 0;
+}
+
+.today-task-section tr:last-child td {
+  border-bottom: 0;
+}
+.schedule-table-section tr td:first-child span {
+  font-weight: 600;
+  width: 50px;
+  display: block;
+}
+.schedule-table-section tr td .date-bg-color {
+  display: block;
+  padding: 4px;
+  border-radius: 0 4px 4px 0;
+  font-weight: 600;
+  font-size: 14px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100px;
+}
+
+/* @media  */
+@media (min-width: 1535px) {
+  .employees-grid-span {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (max-width: 991px) {
+  .table-responisve .table-scroll {
+    width: 900px;
+    max-width: 900px;
+  }
+}
